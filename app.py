@@ -86,7 +86,7 @@ def page_header():
     Returns the page header as a dash `html.Div`
     """
     return html.Div(id='header', children=[
-        html.Div([html.H3('Visualization and Simulation of NBA Player Capability Using 2019-2020 NBA Stats')],
+        html.Div([html.H3('Visualization of NBA Player/Team Performance Using 2019-2020 NBA Stats')],
                  className="ten columns"),
         html.A([html.Img(id='logo', src=app.get_asset_url('jack.jpeg'),
                          style={'height': '35px', 'paddingTop': '7%', 'paddingRight': '300px'}),
